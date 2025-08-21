@@ -1,13 +1,15 @@
-import './App.css'
+import React from "react";
+import { Outlet } from "react-router";
+import "./App.css";
 
-function App() {
-
+const App = () => {
   return (
-    <div className="container">
-
+    <div className="app-container">
+      <div className="app-wrapper">
+        <Outlet />
+      </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;

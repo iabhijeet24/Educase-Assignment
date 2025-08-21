@@ -1,0 +1,15 @@
+.account-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: #525252; /* text-neutral-600 */
+}
+
+.account-heading {
+  letter-spacing: -0.015em; /* tracking-tight */
+  font-weight: 600;
+  font-size: 20px;
+  padding: 24px 18px;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
