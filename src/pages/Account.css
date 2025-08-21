@@ -6,7 +6,7 @@
 }
 
 .account-heading {
-  letter-spacing: -0.015em; /* tracking-tight */
+  letter-spacing: -0.015em; 
   font-weight: 600;
   font-size: 20px;
   padding: 24px 18px;
