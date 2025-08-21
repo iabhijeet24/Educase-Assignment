@@ -1,0 +1,39 @@
+.card {
+  color: #404040; 
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 18px;
+  border-bottom: 1px dashed #d4d4d4; 
+}
+
+.card-header {
+  display: flex;
+  gap: 12px;
+}
+
+.card-img {
+  border-radius: 24px; 
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.card-user {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-name {
+  font-weight: 600;
+}
+
+.card-email {
+  font-weight: 400;
+}
+
+.card-content {
+  margin-top: 4px;
+}

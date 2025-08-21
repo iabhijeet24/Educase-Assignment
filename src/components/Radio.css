@@ -1,0 +1,27 @@
+.radio-wrapper {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.radio-label {
+  font-weight: 500;
+}
+
+.radio-options {
+  display: flex;
+  gap: 12px;
+}
+
+.radio-option {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio-option input[type="radio"] {
+  accent-color: #7c3aed; /* violet-600 style */
+  cursor: pointer;
+}
