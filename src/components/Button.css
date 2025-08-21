@@ -7,9 +7,10 @@
 }
 
 .button-primary {
-  background-color: #7c3aed; /* Tailwind bg-primary */
+  background-color: #7c3aed; 
   color: white;
   cursor: pointer;
+  border: none;
 }
 
 .button-primary:hover {
@@ -20,6 +21,7 @@
   background-color: #e9d5ff; 
   color: #5b21b6; 
   cursor: pointer;
+  border: none;
 }
 
 .button-secondary:hover {
@@ -29,6 +31,6 @@
 
 .button-disabled {
   cursor: not-allowed;
-  background-color: #a3a3a3; /* bg-neutral-400 */
+  background-color: #a3a3a3; 
   color: white;
 }

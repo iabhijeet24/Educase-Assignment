@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router";
-import Button from "../components/ui/Button";
-import Heading from "../components/ui/Heading";
-import Input from "../components/ui/Input";
-import Radio from "../components/ui/Radio";
+import { Link } from "react-router-dom";
+import Button from "../components/Button";
+import Heading from "../components/Heading";
+import Input from "../components/Input";
+import Radio from "../components/Radio";
 import "./Signup.css";
 
 const Signup = () => {

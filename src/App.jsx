@@ -1,11 +1,11 @@
 import React from "react";
-import { Outlet } from "react-router";
+import { Outlet } from "react-router-dom";
 import "./App.css";
 
 const App = () => {
   return (
     <div className="app-container">
-      <div className="app-wrapper">
+      <div className="app-inner">
         <Outlet />
       </div>
     </div>

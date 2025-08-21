@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router";
-import Button from "../components/ui/Button";
-import Heading from "../components/ui/Heading";
-import Input from "../components/ui/Input";
-import Paragraph from "../components/ui/Paragraph";
+import { Link } from "react-router-dom";
+import Button from "../components/Button";
+import Heading from "../components/Heading";
+import Input from "../components/Input";
+import Paragraph from "../components/Paragraph";
 import "./Login.css";
 
 const Login = () => {
